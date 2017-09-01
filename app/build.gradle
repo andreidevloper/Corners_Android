@@ -4,36 +4,91 @@ android {
     compileSdkVersion 25
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.first.corners_android"
-        minSdkVersion 15
+        applicationId "bachelor.Corners"
+        minSdkVersion 14
         targetSdkVersion 25
+
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
-            cmake {
-                cppFlags ""
+
+            ndk {
+                abiFilters "x86", "armeabi-v7a", "armeabi"
             }
+
+            cmake {
+                arguments "-DANDROID=TRUE",
+                        "-DANDROID_TOOLCHAIN=gcc",
+                        "-DANDROID_STL=gnustl_static",
+                        "-DCMAKE_BUILD_TYPE=Debug",
+                        "-DURHO3D_LIB_TYPE=SHARED",
+                        "-DANDROID_STRIP=FALSE",
+                        "-DURHO3D_C++11=TRUE",
+                        "-DURHO3D_SAMPLES=FALSE",
+                        "-DURHO3D_TOOLS=FALSE",
+                        "-DURHO3D_NAVIGATION=FALSE",
+                        "-DURHO3D_NETWORK=FALSE",
+                        "-DURHO3D_LUA=FALSE",
+                        "-DURHO3D_ANGELSCRIPT=FALSE",
+                        "-DURHO3D_DATABASE_SQLITE=FALSE",
+                        "-DURHO3D_IK=FALSE",
+                        "-DURHO3D_WEBP=FALSE",
+                        "-DURHO3D_PHYSICS=FALSE"
+            }
+        }
+
+
+
+        sourceSets.main {
+            manifest.srcFile "src/main/AndroidManifest.xml"
+            jniLibs.srcDir "src/main/jniLibs"
+            assets.srcDir "assets"
         }
     }
     buildTypes {
+        debug {
+            debuggable true
+        }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // Configures multiple APKs based on ABI. (source: https://developer.android.com/studio/build/configure-apk-splits.html)
+    splits {
+        abi {
+            enable true
+            reset()
+            include "x86", "armeabi-v7a"
+            universalApk false
+        }
+    }
+
+    // Generate versionCode per APK (source: https://androidbycode.wordpress.com/2015/06/30/android-ndk-version-code-scheme-for-publishing-apks-per-architecture/)
+    project.ext.versionCodes = ['x86': 1, 'armeabi-v7a': 2, 'armeabi': 3]
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.versionCodeOverride =
+                    project.ext.versionCodes.get(output.getFilter(
+                            com.android.build.OutputFile.ABI), 0) * 10000000 + android.defaultConfig.versionCode
+        }
+    }
+
+    // packagingOptions{
+    //     doNotStrip "*/armeabi/*.so"
+    //     doNotStrip "*/armeabi-v7a/*.so"
+    //     doNotStrip "*/x86/*.so"
+    // }
+
     externalNativeBuild {
         cmake {
-            path "CMakeLists.txt"
+            path "src/main/cpp/CMakeLists.txt"
         }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    testCompile 'junit:junit:4.12'
+    compile fileTree(include: ['.jar', '.so'], dir: 'jniLibs')
 }
