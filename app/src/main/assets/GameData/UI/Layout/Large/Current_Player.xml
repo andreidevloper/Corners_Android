@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Current_Player" />
+	<attribute name="Size" value="480 80" />
+	<attribute name="Min Anchor" value="0.5 1" />
+	<attribute name="Max Anchor" value="0.5 1" />
+	<attribute name="Pivot" value="0.5 1" />
+	<element type="Window">
+		<attribute name="Name" value="Credits_BG" />
+		<attribute name="Size" value="480 80" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<attribute name="Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Is Selected" value="true" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<attribute name="Is Movable" value="true" />
+	</element>
+	<element>
+		<attribute name="Name" value="Player_Info" />
+		<attribute name="Position" value="25 0" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<element type="Text">
+			<attribute name="Name" value="Username_Player_1_Value" />
+			<attribute name="Min Anchor" value="0 0.5" />
+			<attribute name="Max Anchor" value="0 0.5" />
+			<attribute name="Pivot" value="0 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Color" value="0.45 1 0.45 1" />
+			<attribute name="Top Left Color" value="0.45 1 0.45 1" />
+			<attribute name="Top Right Color" value="0.45 1 0.45 1" />
+			<attribute name="Bottom Left Color" value="0.45 1 0.45 1" />
+			<attribute name="Bottom Right Color" value="0.45 1 0.45 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="18" />
+			<attribute name="Text" value="itisscan" />
+			<attribute name="Text Effect" value="Stroke" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+		<element type="Text">
+			<attribute name="Name" value="Username_Player_2_Value" />
+			<attribute name="Min Anchor" value="0 0.5" />
+			<attribute name="Max Anchor" value="0 0.5" />
+			<attribute name="Pivot" value="0 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Color" value="1 0.2 0.2 1" />
+			<attribute name="Top Left Color" value="1 0.2 0.2 1" />
+			<attribute name="Top Right Color" value="1 0.2 0.2 1" />
+			<attribute name="Bottom Left Color" value="1 0.2 0.2 1" />
+			<attribute name="Bottom Right Color" value="1 0.2 0.2 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="18" />
+			<attribute name="Text" value="anthonny" />
+			<attribute name="Text Effect" value="Stroke" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+		<element type="Text">
+			<attribute name="Name" value="Current_Player" />
+			<attribute name="Position" value="-128 8" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Min Offset" value="-250 10" />
+			<attribute name="Pivot" value="0.54 0.6" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="22" />
+			<attribute name="Text" value="Your turn," />
+			<attribute name="Text Effect" value="Stroke" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+	</element>
+</element>

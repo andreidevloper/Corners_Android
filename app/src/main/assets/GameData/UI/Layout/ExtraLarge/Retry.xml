@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Retry" />
+	<attribute name="Size" value="800 400" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<element type="Window">
+		<attribute name="Name" value="Credits_BG" />
+		<attribute name="Position" value="0 -35" />
+		<attribute name="Size" value="795 325" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<attribute name="Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Is Selected" value="true" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<attribute name="Is Movable" value="true" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Menu_Button" />
+		<attribute name="Position" value="-3 -3" />
+		<attribute name="Size" value="395 70" />
+		<attribute name="Min Anchor" value="1 1" />
+		<attribute name="Max Anchor" value="1 1" />
+		<attribute name="Pivot" value="1 1" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<element type="Text">
+			<attribute name="Name" value="Main_Menu_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Opacity" value="0.93" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="40" />
+			<attribute name="Text" value="Menu" />
+			<attribute name="Text Alignment" value="Right" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Play_Again_Button" />
+		<attribute name="Position" value="3 -3" />
+		<attribute name="Size" value="395 70" />
+		<attribute name="Min Anchor" value="0 1" />
+		<attribute name="Max Anchor" value="0 1" />
+		<attribute name="Pivot" value="0 1" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<element type="Text">
+			<attribute name="Name" value="Turns_History_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Opacity" value="0.93" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="40" />
+			<attribute name="Text" value="Play again" />
+			<attribute name="Text Alignment" value="Right" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+	</element>
+	<element>
+		<attribute name="Name" value="Winner_Info" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<element type="Text">
+			<attribute name="Name" value="Winner_Username_Text_1" />
+			<attribute name="Position" value="0 25" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Color" value="0.45 1 0.45 1" />
+			<attribute name="Top Left Color" value="0.45 1 0.45 1" />
+			<attribute name="Top Right Color" value="0.45 1 0.45 1" />
+			<attribute name="Bottom Left Color" value="0.45 1 0.45 1" />
+			<attribute name="Bottom Right Color" value="0.45 1 0.45 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="100" />
+			<attribute name="Text" value="itisscan" />
+			<attribute name="Text Effect" value="Stroke" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+		<element type="Text">
+			<attribute name="Name" value="Winner_Username_Text_2" />
+			<attribute name="Position" value="0 25" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Color" value="1 0.2 0.2 1" />
+			<attribute name="Top Left Color" value="1 0.2 0.2 1" />
+			<attribute name="Top Right Color" value="1 0.2 0.2 1" />
+			<attribute name="Bottom Left Color" value="1 0.2 0.2 1" />
+			<attribute name="Bottom Right Color" value="1 0.2 0.2 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="100" />
+			<attribute name="Text" value="Guest" />
+			<attribute name="Text Effect" value="Stroke" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Winner_Is" />
+		<attribute name="Position" value="0 20" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Priority" value="1" />
+		<attribute name="Color" value="1 1 1 1" />
+		<attribute name="Bring To Front" value="true" />
+		<attribute name="Bring To Back" value="false" />
+		<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+		<attribute name="Font Size" value="100" />
+		<attribute name="Text" value="Winner is -" />
+		<attribute name="Text Effect" value="Stroke" />
+		<attribute name="Shadow Offset" value="2 2" />
+	</element>
+</element>

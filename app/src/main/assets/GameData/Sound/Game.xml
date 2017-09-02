@@ -1,0 +1,9 @@
+<AudioData name="Game">
+	<!-- type - Effect, Music, Speech, Ambient *WARNING* TYPE IS CASE SENSETIVE !-->
+	<AudioBuffer2D name="Click" dimension="2D" type="Effect" gain="1.0f" autoPlay="false" path="Sound/Click.ogg"/>
+ </AudioData>
+
+
+
+
+

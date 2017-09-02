@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Name" value="Credits" />
+	<attribute name="Size" value="820 760" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Is Selected" value="true" />
+	<attribute name="Bring To Back" value="false" />
+	<element type="Window">
+		<attribute name="Name" value="Credits_BG" />
+		<attribute name="Position" value="0 -35" />
+		<attribute name="Size" value="810 680" />
+		<attribute name="Min Anchor" value="0.5 0.5" />
+		<attribute name="Max Anchor" value="0.5 0.5" />
+		<attribute name="Pivot" value="0.5 0.5" />
+		<attribute name="Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Top Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Left Color" value="0.5 0.5 1 1" />
+		<attribute name="Bottom Right Color" value="0.5 0.5 1 1" />
+		<attribute name="Is Selected" value="true" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<attribute name="Is Movable" value="true" />
+	</element>
+	<element>
+		<attribute name="Name" value="Credits" />
+		<attribute name="Position" value="0 2" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<element type="Text">
+			<attribute name="Name" value="Title" />
+			<attribute name="Position" value="0 15" />
+			<attribute name="Min Anchor" value="0.5 0" />
+			<attribute name="Max Anchor" value="0.5 0" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="90" />
+			<attribute name="Text" value="CREDITS" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+		<element type="Text">
+			<attribute name="Name" value="Used frameworks:" />
+			<attribute name="Position" value="0 180" />
+			<attribute name="Min Anchor" value="0.5 0" />
+			<attribute name="Max Anchor" value="0.5 0" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="50" />
+			<attribute name="Text" value="Used frameworks:" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+			<element type="Text">
+				<attribute name="Name" value="Urho3D" />
+				<attribute name="Position" value="0 75" />
+				<attribute name="Min Anchor" value="0.5 0" />
+				<attribute name="Max Anchor" value="0.5 0" />
+				<attribute name="Pivot" value="0.5 0" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bring To Front" value="true" />
+				<attribute name="Bring To Back" value="false" />
+				<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+				<attribute name="Font Size" value="45" />
+				<attribute name="Text" value="Urho3D" />
+				<attribute name="Text Effect" value="Shadow" />
+				<attribute name="Shadow Offset" value="2 2" />
+			</element>
+		</element>
+		<element type="Text">
+			<attribute name="Name" value="Programmers" />
+			<attribute name="Position" value="0 400" />
+			<attribute name="Min Anchor" value="0.5 0" />
+			<attribute name="Max Anchor" value="0.5 0" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="50" />
+			<attribute name="Text" value="Programmers:" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+			<element type="Text">
+				<attribute name="Name" value="Andrejs Skorinko" />
+				<attribute name="Position" value="0 80" />
+				<attribute name="Min Anchor" value="0.5 0" />
+				<attribute name="Max Anchor" value="0.5 0" />
+				<attribute name="Pivot" value="0.5 0" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bring To Front" value="true" />
+				<attribute name="Bring To Back" value="false" />
+				<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+				<attribute name="Font Size" value="40" />
+				<attribute name="Text" value="Andrejs Skorinko" />
+				<attribute name="Text Effect" value="Shadow" />
+				<attribute name="Shadow Offset" value="2 2" />
+			</element>
+			<element type="Text">
+				<attribute name="Name" value="Anthonny Vivienne" />
+				<attribute name="Position" value="0 140" />
+				<attribute name="Min Anchor" value="0.5 0" />
+				<attribute name="Max Anchor" value="0.5 0" />
+				<attribute name="Pivot" value="0.5 0" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Top Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Left Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bottom Right Color" value="0.35 0.8 0.35 1" />
+				<attribute name="Bring To Front" value="true" />
+				<attribute name="Bring To Back" value="false" />
+				<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+				<attribute name="Font Size" value="40" />
+				<attribute name="Text" value="Anthonny Vivienne" />
+				<attribute name="Text Effect" value="Shadow" />
+				<attribute name="Shadow Offset" value="2 2" />
+			</element>
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Back_Button" />
+		<attribute name="Position" value="0 -3" />
+		<attribute name="Size" value="395 70" />
+		<attribute name="Min Anchor" value="0.5 1" />
+		<attribute name="Max Anchor" value="0.5 1" />
+		<attribute name="Pivot" value="0.5 1" />
+		<attribute name="Blend Mode" value="addalpha" />
+		<element type="Text">
+			<attribute name="Name" value="Back_Text" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Priority" value="1" />
+			<attribute name="Opacity" value="0.93" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Bring To Front" value="true" />
+			<attribute name="Bring To Back" value="false" />
+			<attribute name="Font" value="Font;UI/Fonts/bluehighway.ttf" />
+			<attribute name="Font Size" value="40" />
+			<attribute name="Text" value="Back" />
+			<attribute name="Text Effect" value="Shadow" />
+			<attribute name="Shadow Offset" value="2 2" />
+		</element>
+	</element>
+</element>

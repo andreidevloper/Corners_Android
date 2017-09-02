@@ -1,0 +1,5 @@
+<material>
+	<technique name="Techniques/DiffAlpha.xml"/>
+	<texture unit="diffuse" name="Textures/CircleGradient.png" />
+	<parameter name="MatEmissiveColor" value="0.8 0.004 0.007 1"/>
+</material>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="Pattern" />
+	<attribute name="Pivot" value="0 0" />
+	<attribute name="Priority" value="-1" />
+	<element type="Sprite" style="Sprite">
+		<attribute name="Name" value="Pattern" />
+		<attribute name="Size" value="2000 2000" />
+		<attribute name="Scale" value="200 200" />
+		<attribute name="Texture" value="Texture2D;GameData/Textures/Background_Mainmenu_Pattern.png" />
+		<attribute name="Image Rect" value="0 0 184 175" />
+		<attribute name="Priority" value="-1" />
+	</element>
+</element>

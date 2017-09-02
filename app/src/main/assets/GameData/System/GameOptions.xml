@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PlayerOptions name="options">
+	<UserInterface name="userinterface" legacyMode="yes" />
+	<Graphics name="graphics" width="1024" height="768" pos_x="0" pos_y="0" vsync="yes" windowMode="yes" multisample="4" triplebuffer="yes" />
+	<Renderer name="renderer" materialQuality="max" textureQuality="max" dynamicInstancing="no" drawShadows="yes" shadowQuality="simple_24bit" shadowMapSize="512" />
+	<Sound name="sound" enableSound="yes" masterVolume="100" sfxVolume="100" voiceVolume="100" musicVolume="100" ambientVolume="100" />
+	<Multiplayer name="multiplayer" listenPort="1234" gameHost="localhost" />
+	<ResCache name="rescache" useDevelopmentDirectories="yes" />
+	<PhysicsDebug name="physicsdebug" debugMode="no" DrawWireFrame="no" DrawContactPoints="no" />
+	<Debugging name="debughud" useDebugHud="yes" useConsole="yes" />
+</PlayerOptions>
+<ResolutionOption name="resolution">
+	<Resolution-1 width="240" height="320" />
+	<Resolution-2 width="240" height="400" />
+	<Resolution-3 width="240" height="432" />
+	<Resolution-4 width="320" height="480" />
+	<Resolution-5 width="480" height="800" />
+	<Resolution-6 width="480" height="854" />
+	<Resolution-7 width="1024" height="600" />
+	<Resolution-8 width="1280" height="800" />
+	<Resolution-9 width="280" height="280" />
+	<Resolution-10 width="320" height="320" />
+	<Resolution-11 width="720" height="1280" />
+	<Resolution-12 width="1200" height="1290" />
+	<Resolution-13 width="2560" height="1600" />
+	<Resolution-14 width="768" height="1280" />
+	<Resolution-15 width="1080" height="1920" />
+	<Resolution-16 width="800" height="1280" />
+</ResolutionOption>
+
+
