@@ -9,18 +9,7 @@
 .externalNativeBuild
 .idea
 
-
 /app/src/main/jniLibs
-/app/src/main/assets
-
-/app/src/main/cpp/Urho3D_Framework_1_7/Android/
-/app/src/main/cpp/Urho3D_Framework_1_7/bin/
-/app/src/main/cpp/Urho3D_Framework_1_7/SourceAssets/
-
-/app/src/main/cpp/Urho3D_Framework_1_7/Android_Build_armeabi_*/libs/
-/app/src/main/cpp/Urho3D_Framework_1_7/Android_Build_armeabi-v7a_*/libs/
-/app/src/main/cpp/Urho3D_Framework_1_7/Android_Build_x86*/libs/
-
 
 
 
