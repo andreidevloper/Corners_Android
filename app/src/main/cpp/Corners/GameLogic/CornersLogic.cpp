@@ -210,7 +210,7 @@ bool CornersLogic::VLoadGameDelegate(String pLevelData)
             g_pApp->AbortGame();
         }
 
-       SetTestPositions();
+      // SetTestPositions();
     }
     return true;
 }
