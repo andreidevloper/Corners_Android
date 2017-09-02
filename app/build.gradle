@@ -30,10 +30,10 @@ android {
                         "-DURHO3D_NETWORK=FALSE",
                         "-DURHO3D_LUA=FALSE",
                         "-DURHO3D_ANGELSCRIPT=FALSE",
-                        "-DURHO3D_DATABASE_SQLITE=FALSE",
+                        "-DURHO3D_DATABASE_SQLITE=TRUE",
                         "-DURHO3D_IK=FALSE",
                         "-DURHO3D_WEBP=FALSE",
-                        "-DURHO3D_PHYSICS=FALSE"
+                        "-DURHO3D_PHYSICS=TRUE"
             }
         }
 
@@ -91,4 +91,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['.jar', '.so'], dir: 'jniLibs')
+
+
 }
